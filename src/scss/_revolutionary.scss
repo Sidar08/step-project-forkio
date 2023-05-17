@@ -34,12 +34,12 @@
         text-align: center;
         color: #323232;
         padding-top: 1.6875rem;
-        margin: 0 22px;
+        margin: 0 22px 18px 22px;
     }
 }
 
     .btn {
-        margin-top: 2.25rem;
+        //margin-top: 2.25rem;
         display: flex;
         flex-direction: row;
         gap: 13px;
@@ -236,7 +236,7 @@
         margin-top: 70px;
         background: #F4F4F4;
         height: 711px;
-        width: 100%;
+        width: 99%;
         display: grid;
         grid-template-areas: 
             "nav header"
@@ -264,6 +264,10 @@
         }
 
 
+    }
+
+    .btn {
+        margin: 0 auto;
     }
 }
 
