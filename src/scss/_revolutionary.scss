@@ -39,7 +39,6 @@
 }
 
     .btn {
-        //margin-top: 2.25rem;
         display: flex;
         flex-direction: row;
         gap: 13px;
@@ -200,14 +199,12 @@
 }
 
 .WhatYouGet__box-img {
-    //margin-top: 76px;
     height: 24.375rem;
     width: auto;
 }
 
 .WhatYouGet__img{
     float: inline-end;
-    //position: absolute;
     bottom: 0;
     left: 0;
 
@@ -243,9 +240,6 @@
             "nav main"
             "nav main";
 
-           
-            
-
         &__title {
             grid-area: header;
         }
@@ -256,24 +250,10 @@
 
         &__box-img {
             grid-area: main;
-
-            .img-VSCode {
-                height: auto;
-                width: auto;
-            }
         }
-
-
     }
 
     .btn {
         margin: 0 auto;
     }
-}
-
-.img-problem {
-    min-width: 300px;
-    min-height: 150px;
-    background-image: url("../../dist/images/img1.png");
-    background-size: cover;
 }
