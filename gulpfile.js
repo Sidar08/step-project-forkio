@@ -27,6 +27,7 @@ const generateImage = () => {
 const style = () => {
   return gulp
     .src("src/scss/*.scss")
+    .pipe(prefix({ overrideBrowserslist: ["last 10 version"] }))
     .pipe(sass({ outputStyle: "expanded" }).on("error", sass.logError))
     .pipe(gulp.dest("./src/css"));
 };
@@ -91,5 +92,4 @@ function watch() {
 }
 
 exports.default = build;
-exports.style = style;
-exports.watch = watch;
+exports.dev = gulp.series(watch, build)

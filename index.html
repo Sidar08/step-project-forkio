@@ -1,13 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Document</title>
+  </head>
+  <body class="site">
+    <main class="banner">
+      <header class="header wrapper">
+        <nav class="navigation-and__logo navigation">
+          <div class="logo__site">
+            <a class="link__logo" href="#">
+              <img
+                class="logo__hover"
+                src="./dist/images/logo/logo-hover1.svg"
+                alt="logo"
+              />
+              <img class="logo" src="./dist/images/logo/Logo1.png" alt="logo" />
+              <p class="text-logo__site">ForkIO</p>
+            </a>
+            <ul class="navigation__list invisible" id="navigation__list">
+              <li class="navigation__item" id="navigation__item">
+                <a class="navigation__link" href="#">Overview</a>
+              </li>
+              <li class="navigation__item" id="navigation__item">
+                <a class="navigation__link" href="#">About Fork</a>
+              </li>
+              <li class="navigation__item" id="navigation__item">
+                <a class="navigation__link" href="#">Buying Options</a>
+              </li>
+              <li class="navigation__item" id="navigation__item">
+                <a class="navigation__link" href="#">Support</a>
+              </li>
+            </ul>
+            <div class="btn">
+              <a class="link-btn__header btn__header" href="#">Buy Now</a>
+            </div>
+            <span class="material-symbols-outlined navigation__icon">
+              menu
+            </span>
+          </div>
+        </nav>
+      </header>
+      <section class="fork__app wrapper">
+        <div class="banner-and-content__fork-app">
+          <div class="content-fork__app">
+            <div class="content-text__fork-app">
+              <h2 class="title-fork__app">Fork App</h2>
+              <p id="text-fork__app" class="text-fork__app">
+                A Real Gamechanger In The<span>World Of Web-Development</span>
+              </p>
+              <a class="link-content__fork-app" href="#"
+                >v. 2.8 For Mac and Windows</a
+              >
+            </div>
+          </div>
+          <div class="button-fork__app">
+            <a class="link-btn-fork__app" href="#">Download For Free Now</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./dist/js/all-min.js"></script>
+  </body>
 </html>
