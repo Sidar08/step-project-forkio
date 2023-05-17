@@ -1,0 +1,275 @@
+.RevolutionaryEditor {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    &__Period {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: .875rem;
+        line-height: 1rem;
+        color: #848E97;
+        margin-top: 3rem;
+    }
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.625rem;
+        line-height: 1.75rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: #635C73;
+        margin-top: 4.875rem;
+    }
+
+    &__text {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: .875rem;
+        line-height: 1.25rem;
+        text-align: center;
+        color: #323232;
+        padding-top: 1.6875rem;
+        margin: 0 22px;
+    }
+}
+
+    .btn {
+        margin-top: 2.25rem;
+        display: flex;
+        flex-direction: row;
+        gap: 13px;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+
+        &__watch {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            width: 130px;
+            justify-content: center;
+            height: 26px;
+            border-radius: 4px;
+            border-color: gray;
+        }
+
+        &__watch-img{
+            border-right: 1px solid black;
+            width: 80px;
+            background-color: #eeecec;
+            @include flex-btn;
+        }
+
+        &__watch-text{
+            width: 50px;
+            background-color: white;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: .8125rem;
+            line-height: 15px;
+        }
+        &__Star {
+            display: flex;
+            flex-wrap: nowrap;
+            text-align: center;
+            align-items: center;
+            width: 120px;
+            justify-content: center;
+            height: 26px;
+            border-radius: 4px;
+        }
+
+        &__star-img {
+            border-right: 1px solid black;
+            width: 80px;
+            background-color: #eeecec;
+            float: left;
+            padding-left: 3px;
+            @include flex-btn;
+        }
+
+        &__star-text {
+            width: 50px;
+            background-color: white;
+            padding-left: 5px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: .8125rem;
+            line-height: 15px;
+        }
+
+        &__Fork {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            width: 120px;
+            justify-content: space-between;
+            height: 26px;
+            border-radius: 4px;
+        }
+
+        &__Fork-img {
+            border-right: 1px solid black;
+            width: 80px;
+            background-color: #eeecec;
+            @include flex-btn;
+        }
+
+        &__Fork-text {
+            width: 50px;
+            background-color: white;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: .8125rem;
+            line-height: 15px;
+        }
+
+}
+
+.WhatYouGet {
+    padding: 0 10px;
+    position: relative;
+    text-align: center;
+}
+
+.WhatYouGet__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #8D81AC;
+    margin-top: 70px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    &__element {
+        margin-top: 2.375rem;
+        
+        
+
+        .icon {
+            width: 111px;
+            height: 84px;
+            margin: 0 auto;
+            
+        }
+
+        .text-block {
+            margin-top: 20px;
+
+            &__title {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 16px;
+                color: #323232;
+                align-items: center;
+            }
+
+            &__text {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: .875rem;
+                line-height: 21px;
+                text-align: center;
+                color: #848E97;
+                margin-top: 14px;
+            }
+        }
+    }
+}
+
+.WhatYouGet__box-img {
+    //margin-top: 76px;
+    height: 24.375rem;
+    width: auto;
+}
+
+.WhatYouGet__img{
+    float: inline-end;
+    //position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+@media only screen and (min-width: 481px) {
+    .flex-container__element {
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        grid-template-rows: 1fr;
+        margin-left: 1.875rem;
+
+        .text-block {
+            text-align: left;
+            padding-left: 1.4375rem;
+
+            p {
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .WhatYouGet {
+        margin-top: 70px;
+        background: #F4F4F4;
+        height: 711px;
+        width: 100%;
+        display: grid;
+        grid-template-areas: 
+            "nav header"
+            "nav main"
+            "nav main";
+
+           
+            
+
+        &__title {
+            grid-area: header;
+        }
+
+        .flex-container {
+            grid-area: nav;
+        }
+
+        &__box-img {
+            grid-area: main;
+
+            .img-VSCode {
+                height: auto;
+                width: auto;
+            }
+        }
+
+
+    }
+}
+
+.img-problem {
+    min-width: 300px;
+    min-height: 150px;
+    background-image: url("../../dist/images/img1.png");
+    background-size: cover;
+}
