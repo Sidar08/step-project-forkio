@@ -54,11 +54,12 @@ a {
 
 .logo__hover {
   display: none;
-  @media (min-width: 993px) {
-    & {
-      margin-left: 90px;
-    }
-  }
+
+  /* @media (min-width: 993px) {
+     & {
+       margin-left: 90px;
+     }
+   }*/
 }
 
 .navigation__list {
@@ -88,7 +89,7 @@ a {
   background: #8d81ac;
   border-radius: 40px;
   border: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 17px;
@@ -226,13 +227,14 @@ a {
     color: #8d81ac;
   }
 
-  .btn {
+  .btn__header {
+    ////////
     display: flex;
     justify-content: flex-end;
   }
 }
 
-/* Для ширины экрана от 993 до 1200 пикселей */
+/* Для ширины экрана от 993 */
 @media (min-width: 993px) {
   .header {
     background: black;
@@ -249,9 +251,9 @@ a {
     justify-content: center;
   }
 
-  .logo {
-    margin-left: 90px;
-  }
+  // .logo {
+  //   margin-left: 90px;
+  // }
 
   .text-logo__site {
     display: flex;
@@ -264,9 +266,9 @@ a {
     background: 0;
     position: relative;
     top: 0;
-    left: 0;
-    right: 0;
-    margin-right: 50px;
+    // left: 0;
+    // right: 0;
+    margin: 0 90px 0 250px; /////////
   }
 
   #navigation__item.active::before {
@@ -286,7 +288,7 @@ a {
     color: #ffffff;
   }
 
-  .btn {
+  .btn__header {
     margin-right: 100px;
   }
 }
