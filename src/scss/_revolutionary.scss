@@ -199,7 +199,6 @@
 }
 
 .WhatYouGet__box-img {
-    height: 24.375rem;
     width: auto;
     height: auto;
     overflow: hidden;
@@ -213,9 +212,9 @@
 }
 
 .img-VSCode {
-    // height: auto;
-    // max-width: 100%;
     margin-left: 0;
+    height: 130%;
+    width: 130%;
     
 }
 
@@ -235,6 +234,10 @@
             }
         }
     }
+
+        #img-VSCode {
+            width: 99%;
+        }
 
 }
 

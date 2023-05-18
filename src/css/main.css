@@ -749,7 +749,6 @@ a {
 }
 
 .WhatYouGet__box-img {
-  height: 24.375rem;
   width: auto;
   height: auto;
   overflow: hidden;
@@ -763,6 +762,8 @@ a {
 
 .img-VSCode {
   margin-left: 0;
+  height: 130%;
+  width: 130%;
 }
 
 @media only screen and (min-width: 481px) {
@@ -778,6 +779,9 @@ a {
   }
   .flex-container__element .text-block p {
     text-align: left;
+  }
+  #img-VSCode {
+    width: 99%;
   }
 }
 @media only screen and (min-width: 993px) {
