@@ -160,7 +160,7 @@
     text-align: center;
 
     &__element {
-        margin-top: 2.375rem;
+        margin-top: 1.75rem;
         
         
 
@@ -201,6 +201,8 @@
 .WhatYouGet__box-img {
     height: 24.375rem;
     width: auto;
+    height: auto;
+    overflow: hidden;
 }
 
 .WhatYouGet__img{
@@ -208,6 +210,13 @@
     bottom: 0;
     left: 0;
 
+}
+
+.img-VSCode {
+    // height: auto;
+    // max-width: 100%;
+    margin-left: 0;
+    
 }
 
 @media only screen and (min-width: 481px) {
@@ -226,6 +235,10 @@
             }
         }
     }
+
+    #img-VSCode {
+        float: right;
+    }
 }
 
 @media only screen and (min-width: 993px) {
@@ -240,9 +253,6 @@
             "nav main"
             "nav main";
 
-           
-            
-
         &__title {
             grid-area: header;
         }
@@ -251,13 +261,23 @@
             grid-area: nav;
         }
 
+        .text-block__text {
+            max-width: 360px;
+        }
+
         &__box-img {
             grid-area: main;
+            width: auto;
+            height: auto;
 
             .img-VSCode {
-                height: auto;
-                width: auto;
-            }
+                    height: auto;
+                    max-width: 100%;
+                    // background-image: url("../../dist/images/editor1.png");
+                    // background-size: cover;
+                    // background-repeat: no-repeat;
+                }
+
         }
 
 
@@ -265,11 +285,4 @@
     .btn {
         margin: 0 auto;
     }
-}
-
-.img-problem {
-    min-width: 300px;
-    min-height: 150px;
-    background-image: url("../../dist/images/img1.png");
-    background-size: cover;
 }

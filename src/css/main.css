@@ -189,11 +189,11 @@ a {
 
 .logo__hover {
   display: none;
-}
-@media (min-width: 993px) {
-  .logo__hover {
-    margin-left: 90px;
-  }
+  /* @media (min-width: 993px) {
+     & {
+       margin-left: 90px;
+     }
+   }*/
 }
 
 .navigation__list {
@@ -343,12 +343,12 @@ a {
     font-size: 16px;
     color: #8d81ac;
   }
-  .btn {
+  .btn__header {
     display: flex;
     justify-content: flex-end;
   }
 }
-/* Для ширины экрана от 993 до 1200 пикселей */
+/* Для ширины экрана от 993 */
 @media (min-width: 993px) {
   .header {
     background: black;
@@ -362,9 +362,6 @@ a {
     display: flex;
     justify-content: center;
   }
-  .logo {
-    margin-left: 90px;
-  }
   .text-logo__site {
     display: flex;
     padding-left: 17px;
@@ -375,9 +372,7 @@ a {
     background: 0;
     position: relative;
     top: 0;
-    left: 0;
-    right: 0;
-    margin-right: 50px;
+    margin: 0 90px 0 250px;
   }
   #navigation__item.active::before {
     content: " ";
@@ -393,7 +388,7 @@ a {
   .navigation__item:hover .navigation__link {
     color: #ffffff;
   }
-  .btn {
+  .btn__header {
     margin-right: 100px;
   }
 }
@@ -716,7 +711,7 @@ a {
   text-align: center;
 }
 .flex-container__element {
-  margin-top: 2.375rem;
+  margin-top: 1.75rem;
 }
 .flex-container__element .icon {
   width: 111px;
@@ -749,12 +744,18 @@ a {
 .WhatYouGet__box-img {
   height: 24.375rem;
   width: auto;
+  height: auto;
+  overflow: hidden;
 }
 
 .WhatYouGet__img {
   float: inline-end;
   bottom: 0;
   left: 0;
+}
+
+.img-VSCode {
+  margin-left: 0;
 }
 
 @media only screen and (min-width: 481px) {
@@ -770,6 +771,9 @@ a {
   }
   .flex-container__element .text-block p {
     text-align: left;
+  }
+  #img-VSCode {
+    float: right;
   }
 }
 @media only screen and (min-width: 993px) {
@@ -787,20 +791,19 @@ a {
   .WhatYouGet .flex-container {
     grid-area: nav;
   }
+  .WhatYouGet .text-block__text {
+    max-width: 360px;
+  }
   .WhatYouGet__box-img {
     grid-area: main;
+    width: auto;
+    height: auto;
   }
   .WhatYouGet__box-img .img-VSCode {
     height: auto;
-    width: auto;
+    max-width: 100%;
   }
   .btn {
     margin: 0 auto;
   }
-}
-.img-problem {
-  min-width: 300px;
-  min-height: 150px;
-  background-image: url("../../dist/images/img1.png");
-  background-size: cover;
 }
