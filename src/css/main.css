@@ -369,9 +369,6 @@ a {
     display: flex;
     justify-content: center;
   }
-  .logo {
-    margin-left: 90px;
-  }
   .text-logo__site {
     display: flex;
     padding-left: 17px;
@@ -582,11 +579,10 @@ a {
   text-align: center;
   color: #323232;
   padding-top: 1.6875rem;
-  margin: 0 22px;
+  margin: 0 22px 18px 22px;
 }
 
 .btn {
-  margin-top: 2.25rem;
   display: flex;
   flex-direction: row;
   gap: 13px;
@@ -722,7 +718,7 @@ a {
   text-align: center;
 }
 .flex-container__element {
-  margin-top: 2.375rem;
+  margin-top: 1.75rem;
 }
 .flex-container__element .icon {
   width: 111px;
@@ -755,12 +751,18 @@ a {
 .WhatYouGet__box-img {
   height: 24.375rem;
   width: auto;
+  height: auto;
+  overflow: hidden;
 }
 
 .WhatYouGet__img {
   float: inline-end;
   bottom: 0;
   left: 0;
+}
+
+.img-VSCode {
+  margin-left: 0;
 }
 
 @media only screen and (min-width: 481px) {
@@ -777,13 +779,16 @@ a {
   .flex-container__element .text-block p {
     text-align: left;
   }
+  #img-VSCode {
+    float: right;
+  }
 }
 @media only screen and (min-width: 993px) {
   .WhatYouGet {
     margin-top: 70px;
     background: #F4F4F4;
     height: 711px;
-    width: 100%;
+    width: 99%;
     display: grid;
     grid-template-areas: "nav header" "nav main" "nav main";
   }
@@ -793,23 +798,19 @@ a {
   .WhatYouGet .flex-container {
     grid-area: nav;
   }
+  .WhatYouGet .text-block__text {
+    max-width: 360px;
+  }
   .WhatYouGet__box-img {
     grid-area: main;
+    width: auto;
+    height: auto;
   }
   .WhatYouGet__box-img .img-VSCode {
     height: auto;
-    width: auto;
+    max-width: 100%;
   }
-}
-.img-problem {
-  min-width: 300px;
-  min-height: 150px;
-  background-image: url("../../dist/images/img1.png");
-  background-size: cover;
-}
-
-.people-are__talking {
-  background-image: url("../../dist/images/Layer1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  .btn {
+    margin: 0 auto;
+  }
 }

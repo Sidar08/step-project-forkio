@@ -34,12 +34,11 @@
         text-align: center;
         color: #323232;
         padding-top: 1.6875rem;
-        margin: 0 22px;
+        margin: 0 22px 18px 22px;
     }
 }
 
     .btn {
-        margin-top: 2.25rem;
         display: flex;
         flex-direction: row;
         gap: 13px;
@@ -161,7 +160,7 @@
     text-align: center;
 
     &__element {
-        margin-top: 2.375rem;
+        margin-top: 1.75rem;
         
         
 
@@ -200,17 +199,24 @@
 }
 
 .WhatYouGet__box-img {
-    //margin-top: 76px;
     height: 24.375rem;
     width: auto;
+    height: auto;
+    overflow: hidden;
 }
 
 .WhatYouGet__img{
     float: inline-end;
-    //position: absolute;
     bottom: 0;
     left: 0;
 
+}
+
+.img-VSCode {
+    // height: auto;
+    // max-width: 100%;
+    margin-left: 0;
+    
 }
 
 @media only screen and (min-width: 481px) {
@@ -229,6 +235,10 @@
             }
         }
     }
+
+        #img-VSCode {
+            float: right;
+        }
 }
 
 @media only screen and (min-width: 993px) {
@@ -236,15 +246,12 @@
         margin-top: 70px;
         background: #F4F4F4;
         height: 711px;
-        width: 100%;
+        width: 99%;
         display: grid;
         grid-template-areas: 
             "nav header"
             "nav main"
             "nav main";
-
-           
-            
 
         &__title {
             grid-area: header;
@@ -254,22 +261,25 @@
             grid-area: nav;
         }
 
+        .text-block__text {
+            max-width: 360px;
+        }
+
         &__box-img {
             grid-area: main;
+            width: auto;
+            height: auto;
 
             .img-VSCode {
-                height: auto;
-                width: auto;
-            }
+                    height: auto;
+                    max-width: 100%;
+                }
+
         }
 
 
     }
-}
-
-.img-problem {
-    min-width: 300px;
-    min-height: 150px;
-    background-image: url("../../dist/images/img1.png");
-    background-size: cover;
+    .btn {
+        margin: 0 auto;
+    }
 }
