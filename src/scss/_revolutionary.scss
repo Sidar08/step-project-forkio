@@ -236,9 +236,9 @@
         }
     }
 
-    #img-VSCode {
-        float: right;
-    }
+        #img-VSCode {
+            float: right;
+        }
 }
 
 @media only screen and (min-width: 993px) {
@@ -273,9 +273,6 @@
             .img-VSCode {
                     height: auto;
                     max-width: 100%;
-                    // background-image: url("../../dist/images/editor1.png");
-                    // background-size: cover;
-                    // background-repeat: no-repeat;
                 }
 
         }
