@@ -27,7 +27,7 @@ const generateImage = () => {
 const style = () => {
   return gulp
     .src("src/scss/*.scss")
-    .pipe(prefix({ overrideBrowserslist: ["last 10 version"] }))
+    // .pipe(prefix({ overrideBrowserslist: ["last 10 version"] }))
     .pipe(sass({ outputStyle: "expanded" }).on("error", sass.logError))
     .pipe(gulp.dest("./src/css"));
 };
