@@ -807,3 +807,9 @@ a {
   background-image: url("../../dist/images/img1.png");
   background-size: cover;
 }
+
+.people-are__talking {
+  background-image: url("../../dist/images/Layer1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
