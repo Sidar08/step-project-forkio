@@ -46,10 +46,6 @@ a {
 
 .link__logo:hover .logo__hover {
   display: block;
-
-  // @media (min-width: 993px) {
-  //   margin-left: 90px;
-  // }
 }
 
 .link__logo:hover .text-logo__site {
@@ -58,10 +54,6 @@ a {
 
 .logo__hover {
   display: none;
-
-  // @media (min-width: 993px) {
-  //   margin-left: 90px;
-  // }
 }
 
 .navigation__list {
@@ -261,10 +253,6 @@ a {
     justify-content: center;
   }
 
-  // .logo {
-  //   margin-left: 90px;
-  // }
-
   .text-logo__site {
     display: flex;
     padding-left: 17px;
@@ -301,7 +289,7 @@ a {
   }
 }
 
-.banner {
+.header__banner {
   background-image: url("../../dist/images/img1.png");
   background-size: cover;
   background-repeat: no-repeat;

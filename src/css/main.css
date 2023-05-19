@@ -394,7 +394,7 @@ a {
     margin-right: 65px;
   }
 }
-.banner {
+.header__banner {
   background-image: url("../../dist/images/img1.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -806,7 +806,7 @@ a {
   }
 }
 .people-are__talking {
-  background-image: url("../../dist/images/testmonials-bg1.png");
+  background-image: url("../../dist/images/testmonials-bg1(1).png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
