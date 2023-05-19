@@ -54,12 +54,6 @@ a {
 
 .logo__hover {
   display: none;
-
-  @media (min-width: 993px) {
-    & {
-      margin-left: 90px;
-    }
-  }
 }
 
 .navigation__list {

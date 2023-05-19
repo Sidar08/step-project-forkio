@@ -190,11 +190,6 @@ a {
 .logo__hover {
   display: none;
 }
-@media (min-width: 993px) {
-  .logo__hover {
-    margin-left: 90px;
-  }
-}
 
 .navigation__list {
   grid-area: nav;
