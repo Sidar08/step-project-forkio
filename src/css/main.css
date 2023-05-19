@@ -779,9 +779,6 @@ a {
   .flex-container__element .text-block p {
     text-align: left;
   }
-  #img-VSCode {
-    float: right;
-  }
 }
 @media only screen and (min-width: 993px) {
   .WhatYouGet {
@@ -812,5 +809,8 @@ a {
   }
   .btn {
     margin: 0 auto;
+  }
+  #img-VSCode {
+    float: right;
   }
 }
