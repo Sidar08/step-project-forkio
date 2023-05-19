@@ -364,6 +364,9 @@ a {
     display: flex;
     justify-content: center;
   }
+  .logo {
+    margin-left: 90px;
+  }
   .text-logo__site {
     display: flex;
     padding-left: 17px;
