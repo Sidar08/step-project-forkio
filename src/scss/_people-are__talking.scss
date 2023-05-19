@@ -3,8 +3,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
-  // height: 1865px;
 }
 
 .logo-container {
@@ -94,13 +92,6 @@
   margin-top: 20px;
   margin: 20px auto 0;
 }
-
-/* Для ширины экрана от 481 до 992 пикселей */
-// @media (min-width: 481px) and (max-width: 992px) {
-//   .people-are__talking {
-//     max-height: calc(1120px - ((100vw - 481px) * (180 / 511)));
-//   }
-// }
 
 @media (min-width: 481px) and (max-width: 992px) {
   .logo-post__container {

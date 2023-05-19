@@ -899,7 +899,6 @@ a {
   margin: 20px auto 0;
 }
 
-/* Для ширины экрана от 481 до 992 пикселей */
 @media (min-width: 481px) and (max-width: 992px) {
   .logo-post__container {
     display: flex;
