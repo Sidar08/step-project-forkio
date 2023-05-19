@@ -199,6 +199,7 @@
 }
 
 .WhatYouGet__box-img {
+    height: 24.375rem;
     width: auto;
     height: auto;
     overflow: hidden;
@@ -267,27 +268,10 @@
 
         &__box-img {
             grid-area: main;
-            width: auto;
-            height: auto;
-
-            .img-VSCode {
-                    height: auto;
-                    max-width: 100%;
-                }
-
         }
-
-
     }
+
     .btn {
         margin: 0 auto;
-    }
-
-    #img-VSCode {
-        float: right;
-    }
-
-    #img-VSCode {
-        float: right;
     }
 }
