@@ -28,9 +28,7 @@ a {
 }
 
 .logo__site {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include flex-text;
   padding-top: 20px;
 }
 
@@ -49,7 +47,7 @@ a {
 }
 
 .link__logo:hover .text-logo__site {
-  color: white;
+  color: $colorWhite;
 }
 
 .logo__hover {
@@ -77,20 +75,18 @@ a {
 }
 
 .link-btn__header {
-  color: #ffffff;
+  color: $colorWhite;
   width: 119px;
   height: 37px;
   background: #8d81ac;
   border-radius: 40px;
   border: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: $fontMontserrat, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 17px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-text;
 }
 
 .navigation__icon {
@@ -148,8 +144,8 @@ a {
 }
 
 .navigation__link {
-  color: #ffffff;
-  font-family: "Montserrat", sans-serif;
+  color: $colorWhite;
+  font-family: $fontMontserrat, sans-serif;
   font-weight: 400;
   font-size: 26px;
   line-height: 26px;
@@ -203,7 +199,7 @@ a {
   }
 
   #navigation__item {
-    font-family: "Montserrat", sans-serif;
+    font-family: $fontMontserrat, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
@@ -213,11 +209,11 @@ a {
   }
 
   .navigation__link:hover {
-    color: #ffffff;
+    color: $colorWhite;
   }
 
   .navigation__item.active .navigation__link:hover {
-    color: #ffffff;
+    color: $colorWhite;
   }
 
   .navigation__link {
@@ -230,9 +226,7 @@ a {
   }
 
   .link-btn__header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-text;
   }
 }
 
@@ -273,7 +267,7 @@ a {
   }
 
   .navigation__link {
-    font-family: "Montserrat", sans-serif;
+    font-family: $fontMontserrat, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 15px;
@@ -281,7 +275,7 @@ a {
   }
 
   .navigation__item:hover .navigation__link {
-    color: #ffffff;
+    color: $colorWhite;
   }
 
   .btn__header {
@@ -303,7 +297,7 @@ a {
 }
 
 .content-fork__app {
-  color: #fff;
+  color: $colorWhite;
   padding-top: 30px;
   display: flex;
   align-items: center;
@@ -318,11 +312,11 @@ a {
 }
 
 .title-fork__app {
-  font-family: "Montserrat", sans-serif;
+  font-family: $fontMontserrat, sans-serif;
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
-  color: #ffffff;
+  color: $colorWhite;
 
   display: flex;
   align-items: center;
@@ -331,7 +325,7 @@ a {
 
 .text-fork__app {
   margin-top: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: $fontMontserrat, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -344,7 +338,7 @@ a {
 }
 
 .link-content__fork-app {
-  font-family: "Montserrat";
+  font-family: $fontMontserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -362,12 +356,12 @@ a {
   .content-fork__app {
     width: 99.3%;
     padding-top: 30px;
-    color: #fff;
+    color: $colorWhite;
   }
 
   #text-fork__app {
     margin-top: 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: $fontMontserrat, sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -384,12 +378,12 @@ a {
   .content-fork__app {
     width: auto;
     padding-top: 30px;
-    color: #fff;
+    color: $colorWhite;
   }
 
   #text-fork__app {
     margin-top: 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: $fontMontserrat, sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -409,8 +403,8 @@ a {
 }
 
 .link-btn-fork__app {
-  color: #ffffff;
-  font-family: "Montserrat", sans-serif;
+  color: $colorWhite;
+  font-family: $fontMontserrat, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
