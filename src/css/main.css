@@ -164,7 +164,7 @@ a {
 
 .logo__site {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding-top: 20px;
 }
@@ -212,7 +212,7 @@ a {
 }
 
 .link-btn__header {
-  color: #ffffff;
+  color: white;
   width: 119px;
   height: 37px;
   background: #8d81ac;
@@ -277,7 +277,7 @@ a {
 }
 
 .navigation__link {
-  color: #ffffff;
+  color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 26px;
@@ -332,10 +332,10 @@ a {
     padding: 3px 2px;
   }
   .navigation__link:hover {
-    color: #ffffff;
+    color: white;
   }
   .navigation__item.active .navigation__link:hover {
-    color: #ffffff;
+    color: white;
   }
   .navigation__link {
     font-size: 16px;
@@ -388,7 +388,7 @@ a {
     color: #8d81ac;
   }
   .navigation__item:hover .navigation__link {
-    color: #ffffff;
+    color: white;
   }
   .btn__header {
     margin-right: 65px;
@@ -408,7 +408,7 @@ a {
 }
 
 .content-fork__app {
-  color: #fff;
+  color: white;
   padding-top: 30px;
   display: flex;
   align-items: center;
@@ -427,7 +427,7 @@ a {
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
-  color: #ffffff;
+  color: white;
   display: flex;
   align-items: center;
   text-align: center;
@@ -464,7 +464,7 @@ a {
   .content-fork__app {
     width: 99.3%;
     padding-top: 30px;
-    color: #fff;
+    color: white;
   }
   #text-fork__app {
     margin-top: 20px;
@@ -483,7 +483,7 @@ a {
   .content-fork__app {
     width: auto;
     padding-top: 30px;
-    color: #fff;
+    color: white;
   }
   #text-fork__app {
     margin-top: 20px;
@@ -505,7 +505,7 @@ a {
 }
 
 .link-btn-fork__app {
-  color: #ffffff;
+  color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -830,7 +830,7 @@ a {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: white;
 }
 
 .logo-and__text-container {
@@ -860,7 +860,7 @@ a {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: white;
 }
 
 .text-logo__column {
@@ -897,9 +897,9 @@ a {
 @media (min-width: 481px) and (max-width: 992px) {
   .logo-post__container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
   .logo-and__text-container {
     width: 50%;
@@ -971,7 +971,7 @@ a {
   font-weight: 700;
   font-size: 1.75rem;
   line-height: 42px;
-  color: #FFFFFF;
+  color: white;
   padding-top: 0.875rem;
   margin-bottom: 2.4375rem;
   padding-top: 5.4375rem;
@@ -1012,7 +1012,7 @@ a {
   font-size: 3.75rem;
   line-height: 62px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: white;
   display: block;
   padding-top: 30px;
 }
@@ -1023,7 +1023,7 @@ a {
   font-size: 0.875rem;
   line-height: 16px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: white;
   display: block;
   margin-top: 1.25rem;
 }
@@ -1039,7 +1039,7 @@ a {
   font-weight: 400;
   font-size: 1rem;
   line-height: 28px;
-  color: #FFFFFF;
+  color: white;
   display: block;
   margin-top: 30px;
   margin-bottom: 37px;
@@ -1059,11 +1059,12 @@ a {
   font-size: 0.9375rem;
   line-height: 15px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   align-items: center;
   text-align: center;
-  justify-content: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: white;
   border-radius: 99em;
   border: 0;
   cursor: pointer;
@@ -1079,8 +1080,8 @@ a {
   height: 111px;
   background: rgba(0, 0, 0, 0.11);
   display: flex;
-  text-align: center;
   justify-content: center;
+  align-items: center;
   align-items: center;
 }
 .ForkSubscriptionPricing .Pricing-flex__element-dark__content-dark {
@@ -1096,7 +1097,7 @@ a {
   font-size: 3.75rem;
   line-height: 62px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: white;
   display: block;
   padding-top: 30px;
 }
@@ -1107,7 +1108,7 @@ a {
   font-size: 0.875rem;
   line-height: 16px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: white;
   display: block;
   margin-top: 1.25rem;
 }
@@ -1123,7 +1124,7 @@ a {
   font-weight: 400;
   font-size: 1rem;
   line-height: 28px;
-  color: #FFFFFF;
+  color: white;
   display: block;
   margin-top: 40px;
   margin-bottom: 83px;
@@ -1138,11 +1139,11 @@ a {
   font-size: 0.9375rem;
   line-height: 15px;
   display: flex;
-  align-items: center;
-  text-align: center;
   justify-content: center;
+  align-items: center;
+  align-items: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: white;
   border-radius: 99em;
   border: 0;
   cursor: pointer;
@@ -1159,18 +1160,18 @@ a {
 }
 .ForkSubscriptionPricing .Pricing-flex__box1 {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   gap: 18px;
-  text-align: center;
   align-items: center;
 }
 .ForkSubscriptionPricing .Pricing-flex__box2 {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   gap: 18px;
-  text-align: center;
   align-items: center;
 }
 
@@ -1180,28 +1181,29 @@ a {
   }
   #Pricing-flex__box1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
-    text-align: center;
     align-items: center;
   }
   #Pricing-flex__box2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
-    text-align: center;
     align-items: center;
   }
 }
 @media only screen and (min-width: 993px) {
   #Pricing-flex {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 15px;
-    justify-content: center;
     align-items: center;
   }
 }

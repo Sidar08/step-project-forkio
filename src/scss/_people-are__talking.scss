@@ -16,7 +16,7 @@
 
 .logo-container__title-text {
   margin-top: 57px;
-  font-family: "Montserrat", sans-serif;
+  font-family: $fontMontserrat, sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 48px;
@@ -25,7 +25,7 @@
   align-items: center;
   text-align: center;
 
-  color: #ffffff;
+  color: $colorWhite;
 }
 
 .logo-and__text-container {
@@ -46,7 +46,7 @@
 }
 
 .text__logo {
-  font-family: "Lato", sans-serif;
+  font-family: $fontLato, sans-serif;
   font-style: italic;
   font-weight: 700;
   font-size: 16px;
@@ -57,7 +57,7 @@
   align-items: center;
   text-align: center;
 
-  color: #ffffff;
+  color: $colorWhite;
 }
 
 .text-logo__column {
@@ -72,7 +72,7 @@
 
 .text-bottom__logo {
   padding-top: 35px;
-  font-family: "Lato", sans-serif;
+  font-family: $fontLato, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -96,10 +96,8 @@
 
 @media (min-width: 481px) and (max-width: 992px) {
   .logo-post__container {
-    display: flex;
+    @include flex-text;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
   }
 
   .logo-and__text-container {

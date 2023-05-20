@@ -7,12 +7,12 @@
     
 
     &__title {
-        font-family: 'Montserrat';
+        font-family: $fontMontserrat;
         font-style: normal;
         font-weight: 700;
         font-size: 1.75rem;
         line-height: 42px;
-        color: #FFFFFF;
+        color: $colorWhite;
         padding-top: .875rem;
         margin-bottom: 2.4375rem;
         padding-top: 5.4375rem;
@@ -59,26 +59,26 @@
             }
 
             .price {
-                font-family: 'Montserrat';
+                font-family: $fontMontserrat;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 3.75rem;
                 line-height: 62px;
                 text-transform: uppercase;
-                color: #FFFFFF;
+                color: $colorWhite;
                 display: block;
                 padding-top: 30px;
                 
             }
 
             .perMonth {
-                font-family: 'Montserrat';
+                font-family: $fontMontserrat;
                 font-style: normal;
                 font-weight: 400;
                 font-size: .875rem;
                 line-height: 16px;
                 text-transform: uppercase;
-                color: #FFFFFF;
+                color: $colorWhite;
                 display: block;
                 margin-top: 1.25rem;
             }
@@ -91,12 +91,12 @@
             }
 
             .Pricing-text {
-                font-family: 'Montserrat';
+                font-family: $fontMontserrat;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 1rem;
                 line-height: 28px;
-                color: #FFFFFF;
+                color: $colorWhite;
                 display: block;
                 margin-top: 30px;
                 margin-bottom: 37px;
@@ -112,17 +112,16 @@
                 width: 163px;
                 height: 45px;
                 background: rgba(255, 255, 255, 0.15);
-                font-family: 'Montserrat';
+                font-family: $fontMontserrat;
                 font-style: normal;
                 font-weight: 400;
                 font-size: .9375rem;
                 line-height: 15px;
-                display: flex;
+                @include flex-text;
                 align-items: center;
                 text-align: center;
-                justify-content: center;
                 text-transform: uppercase;
-                color: #FFFFFF;
+                color: $colorWhite;
                 border-radius: 99em;
                 border: 0;
                 cursor: pointer;
@@ -146,9 +145,7 @@
                         width: 299px;
                         height: 111px;
                         background: rgba(0, 0, 0, 0.11);
-                        display: flex;
-                        text-align: center;
-                        justify-content: center;
+                        @include flex-text;
                         align-items: center;
                        
                     }
@@ -163,26 +160,26 @@
                     }
 
                     .price-dark {
-                        font-family: 'Montserrat';
+                        font-family: $fontMontserrat;
                         font-style: normal;
                         font-weight: 400;
                         font-size: 3.75rem;
                         line-height: 62px;
                         text-transform: uppercase;
-                        color: #FFFFFF;
+                        color: $colorWhite;
                         display: block;
                         padding-top: 30px;
 
                     }
 
                     .perMonth-dark {
-                        font-family: 'Montserrat';
+                        font-family: $fontMontserrat;
                         font-style: normal;
                         font-weight: 400;
                         font-size: .875rem;
                         line-height: 16px;
                         text-transform: uppercase;
-                        color: #FFFFFF;
+                        color: $colorWhite;
                         display: block;
                         margin-top: 1.25rem;
                     }
@@ -195,12 +192,12 @@
                     }
 
                     .Pricing-text-dark {
-                        font-family: 'Montserrat';
+                        font-family: $fontMontserrat;
                         font-style: normal;
                         font-weight: 400;
                         font-size: 1rem;
                         line-height: 28px;
-                        color: #FFFFFF;
+                        color: $colorWhite;
                         display: block;
                         margin-top: 40px;
                         margin-bottom: 83px;
@@ -210,17 +207,15 @@
                         width: 163px;
                         height: 45px;
                         background: rgba(255, 255, 255, 0.15);
-                        font-family: 'Montserrat';
+                        font-family: $fontMontserrat;
                         font-style: normal;
                         font-weight: 400;
                         font-size: .9375rem;
                         line-height: 15px;
-                        display: flex;
+                        @include flex-text;
                         align-items: center;
-                        text-align: center;
-                        justify-content: center;
                         text-transform: uppercase;
-                        color: #FFFFFF;
+                        color: $colorWhite;
                         border-radius: 99em;
                         border: 0;
                         cursor: pointer;
@@ -230,30 +225,26 @@
     }
 
     .element-title-text {
-        font-family: 'Montserrat';
+        font-family: $fontMontserrat;
         font-style: normal;
         font-weight: 400;
         font-size: 1.5rem;
         line-height: 24px;
         text-transform: uppercase;
-        color: white;
+        color: $colorWhite;
     }
 
        .Pricing-flex__box1 {
-            display: flex;
+            @include flex-text;
             flex-direction: column;
-            justify-content: center;
             gap: 18px;
-            text-align: center;
             align-items: center;
        }
 
         .Pricing-flex__box2 {
-            display: flex;
+            @include flex-text;
             flex-direction: column;
-            justify-content: center;
             gap: 18px;
-            text-align: center;
             align-items: center;
         }
     
@@ -264,19 +255,15 @@
         padding-bottom: 5.875rem;
     }
     #Pricing-flex__box1 {
-        display: flex;
+        @include flex-text;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: center;
-        text-align: center;
         align-items: center;
     }
     #Pricing-flex__box2 {
-        display: flex;
+        @include flex-text;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: center;
-        text-align: center;
         align-items: center;
         
     }
@@ -284,11 +271,10 @@
 
 @media only screen and (min-width: 993px) {
     #Pricing-flex {
-        display: flex;
+        @include flex-text;
         flex-direction: row;
         flex-wrap: nowrap;
         gap: 15px;
-        justify-content: center;
         align-items: center;
         
     }
