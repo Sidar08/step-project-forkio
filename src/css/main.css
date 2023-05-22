@@ -209,6 +209,7 @@ a {
   color: #8d81ac;
   background: #ffffff;
   border: 1px solid #8d81ac;
+  box-sizing: border-box;
 }
 
 .link-btn__header {
@@ -970,7 +971,7 @@ a {
   height: auto;
 }
 .ForkSubscriptionPricing__title {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.75rem;
@@ -1010,7 +1011,7 @@ a {
   position: relative;
 }
 .ForkSubscriptionPricing .Pricing-flex__element .price {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 3.75rem;
@@ -1021,7 +1022,7 @@ a {
   padding-top: 30px;
 }
 .ForkSubscriptionPricing .Pricing-flex__element .perMonth {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 0.875rem;
@@ -1038,7 +1039,7 @@ a {
   margin-top: 38px;
 }
 .ForkSubscriptionPricing .Pricing-flex__element .Pricing-text {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -1057,7 +1058,7 @@ a {
   width: 163px;
   height: 45px;
   background: rgba(255, 255, 255, 0.15);
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 0.9375rem;
@@ -1095,7 +1096,7 @@ a {
   text-align: center;
 }
 .ForkSubscriptionPricing .Pricing-flex__element-dark .price-dark {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 3.75rem;
@@ -1106,7 +1107,7 @@ a {
   padding-top: 30px;
 }
 .ForkSubscriptionPricing .Pricing-flex__element-dark .perMonth-dark {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 0.875rem;
@@ -1123,7 +1124,7 @@ a {
   margin-top: 46px;
 }
 .ForkSubscriptionPricing .Pricing-flex__element-dark .Pricing-text-dark {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -1137,7 +1138,7 @@ a {
   width: 163px;
   height: 45px;
   background: rgba(255, 255, 255, 0.15);
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 0.9375rem;
@@ -1154,7 +1155,7 @@ a {
   margin: 0 auto;
 }
 .ForkSubscriptionPricing .element-title-text {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
